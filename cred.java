@@ -16,8 +16,9 @@ public class LoopsLoginPass {
         //        //if the user enters the invalid password 3 times. We dont count invalid User name inputs.
         //        //Print out account is blocked.
         //        //Hint: use Do while.
-        String username = "ashish_dhone@ashketchum.com";
-        String password = "Welcome@%$23$2*";
+        String usr = "ashish_dhone@ashketchum.com";
+        String pass = "Welcome@%$23$2*";
+        String login = "https://welcome.ashketchum.com"
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter your login bellow: ");
         String loginInput = sc.nextLine().trim();
